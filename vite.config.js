@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  // CRITICAL: Sets the base path for assets to your repository name.
-  base: '/Reactrentfrontend/', 
+  // CHANGE: Use a relative base path
+  base: './', 
   plugins: [react()],
 });
